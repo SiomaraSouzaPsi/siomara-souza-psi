@@ -20,6 +20,7 @@ nav{
     padding: 0 50px;
     width: 100%;
 }
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -91,8 +92,7 @@ span{
     text-align: left;
     font-style: italic;
     /*font-family: Verdana, Geneva, Tahoma, sans-serif !important;*/
-    font-family: cursive;
-    
+    font-family: cursive;    
 }
 
 .navbar-second h5{
@@ -111,6 +111,7 @@ span{
     text-transform: uppercase;
     /*  cursor: pointer;*/
 }
+
 img.logo {
     width: 80px;
     float: left;
@@ -230,7 +231,7 @@ section{
 }
 
 .section-bg#sobre{
-    background-color: #e0b7f8;    
+    background-color: #ecd2fb;    
 }
 
 /*section#sobre p {
