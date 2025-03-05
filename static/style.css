@@ -145,7 +145,7 @@ a{
 
 .navbar-second .btn-link {
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 10%;
     width: 300px;
     margin-left: 10px;
     margin-right: 100px;
