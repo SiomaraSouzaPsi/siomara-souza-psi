@@ -196,6 +196,16 @@ section#inicio span#subtitle {
     font-family: cursive;
 }
 
+section#inicio p { 
+    color: rgb(231, 254, 254) !important;
+    margin-left:40px; 
+    margin-top: 30px;   
+    font-size: 3rem;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    font-family: cursive;
+}
+
 .text-shadow {
     text-shadow: 7px 7px 15px #000000;
 }
