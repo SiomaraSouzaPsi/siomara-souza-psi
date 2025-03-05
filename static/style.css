@@ -173,7 +173,7 @@ section#inicio {
     background-position-x: center;
     width: 100%;
     height: 100vh;
-    opacity: 95%;
+    opacity: 1;
 }
 
 section#inicio h2 {  
