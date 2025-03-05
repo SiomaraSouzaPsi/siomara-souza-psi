@@ -189,7 +189,8 @@ section#inicio h2 {
 
 section#inicio span#title { 
     color: rgb(231, 254, 254) !important;
-    margin-left: 55px;    
+    margin-left: 55px;  
+    margin-bottom: 20px;  
     font-size: 3rem;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
@@ -198,8 +199,8 @@ section#inicio span#title {
 
 section#inicio span#subtitle { 
     color: rgb(231, 254, 254) !important;
-    margin-top: 30px;
-    margin-left: 25px;    
+    margin-top: 10px;
+    margin-left: 0px;    
     font-size: 3rem;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
