@@ -184,13 +184,14 @@ section#inicio h2 {
     font-size: 3rem;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    font-family: cursive;
+    font-family: cursive;  
+}
+
+ /* 
     float: left;
     clip-path: ellipse(50% 30%);
     shape-outside: ellipse(55% 35%);
-}
 
- /*   
     background: lightblue;
     border-radius: 50%;
     width: 100px;
@@ -217,7 +218,7 @@ section#inicio span#subtitle {
 }
 
 .text-shadow {
-    text-shadow: 7px 7px 15px #c90909;
+    text-shadow: 7px 7px 15px #8d2323;
 }
 
 section#inicio div#arraste {
