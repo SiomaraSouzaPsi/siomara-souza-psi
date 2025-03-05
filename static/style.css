@@ -177,12 +177,6 @@ section#inicio {
    /* opacity: 80%;*/
 }
 
-section#inicio .col-md-5{
-    background: lightblue;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
 
 section#inicio h2 {  
     color: rgb(231, 254, 254) !important;
