@@ -175,10 +175,6 @@ section#inicio {
     height: 100vh;
     opacity: 0.5;
    /* opacity: 80%;*/
-    background: lightblue;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
 }
 
 section#inicio h2 {  
@@ -189,6 +185,10 @@ section#inicio h2 {
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     font-family: cursive;
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 section#inicio span#title { 
