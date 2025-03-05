@@ -27,12 +27,12 @@ nav{
     align-items: center;
 }
 
+/*
 .navbar-one{
     background-color: blueviolet;
     color: #99f6e7;
     height: 40px;
-    /*cursor: pointer;*/
-    
+    cursor: pointer;    
 }
 
 .navbar-one p{
@@ -54,7 +54,6 @@ nav{
 
 .left > div + div{
     margin-left: 40px;
-
 }
 
 .right > div{
@@ -71,6 +70,7 @@ span{
     margin-left: 5px;
     font-size: 15px;
 }
+*/
 
 .navbar-second{   
     background-color: rgb(229, 252, 252);
