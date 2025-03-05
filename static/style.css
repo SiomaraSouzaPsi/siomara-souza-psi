@@ -187,7 +187,7 @@ section#inicio h2 {
     font-family: cursive;
 }
 
-section#inicio span#subtitle { 
+section#inicio span#title { 
     color: rgb(231, 254, 254) !important;
     margin-left: 55px;    
     font-size: 3rem;
@@ -196,11 +196,10 @@ section#inicio span#subtitle {
     font-family: cursive;
 }
 
-section#inicio p { 
+section#inicio span#subtitle { 
     color: rgb(231, 254, 254) !important;
-    margin-left:40px; 
-    margin-top: 30px;   
-    font-size: 30rem;
+    margin-left:40px;    
+    font-size: 3rem;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     font-family: cursive;
