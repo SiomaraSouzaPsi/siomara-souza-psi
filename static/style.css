@@ -233,8 +233,8 @@ section#inicio div#arraste a {
 
 section#inicio div#init {
     background: rgb(121, 24, 24);
-            width: 70%;
-            height: 180px;
+            width: 40%;
+            height: 50px;
             overflow-y: auto;
             overflow-x: hidden;
 }
