@@ -218,7 +218,7 @@ section#inicio span#subtitle {
 }
 
 .text-shadow {
-    text-shadow: 7px 7px 15px #8d2323;
+    text-shadow: 7px 7px 15px #000000;
 }
 
 section#inicio div#arraste {
@@ -233,9 +233,9 @@ section#inicio div#arraste a {
 
 section#inicio div#init {
     background: rgb(230, 230, 230);
-    margin-top: 300px;
-    margin-bottom: 100px;
-    margin-left: 90px;
+    margin-top: 600px;
+    margin-bottom: 125px;
+    margin-left: 115px;
     margin-right: 100px;
 }
 
