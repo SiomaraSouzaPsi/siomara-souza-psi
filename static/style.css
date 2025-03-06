@@ -233,6 +233,10 @@ section#inicio div#arraste a {
 
 section#inicio div#init {
     background: rgb(230, 230, 230);
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 60px;
 }
 
 /*
