@@ -243,6 +243,7 @@ section#inicio div#init a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;
+    margin-top: 10px;
     margin-left: 20px;
     color: black;
     font-weight: 400;
