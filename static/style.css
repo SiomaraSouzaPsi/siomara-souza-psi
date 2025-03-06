@@ -231,6 +231,14 @@ section#inicio div#arraste a {
    
 }
 
+section#inicio div#init {
+    background: rgb(121, 24, 24);
+            width: 70%;
+            height: 180px;
+            overflow-y: auto;
+            overflow-x: hidden;
+}
+
 /*
 section{
     width: 100%;
