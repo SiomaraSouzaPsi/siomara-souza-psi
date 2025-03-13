@@ -245,7 +245,7 @@ section#inicio div#init a {
     font-size: 16px;
     margin-top: 10px;
     margin-left: 20px;
-    color: black;
+    color: rgb(92, 4, 173);
     font-weight: 400;
 } 
 
@@ -262,6 +262,10 @@ section{
         font-size: 3.5rem;        
     }
     section#inicio span#subtitle {
+        margin-right: 0;
+        font-size: 1rem;
+    }
+    section#inicio span#title {
         margin-right: 0;
         font-size: 1rem;
     }
