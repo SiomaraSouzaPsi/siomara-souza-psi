@@ -196,7 +196,7 @@ section#inicio h2 {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-*/
+
 
 section#inicio span#title { 
     color: rgb(231, 254, 254) !important;
@@ -216,7 +216,7 @@ section#inicio span#subtitle {
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     font-family: cursive;
 }
-
+*/
 .text-shadow {
     text-shadow: 7px 7px 15px #000000;
 }
