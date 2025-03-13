@@ -1,27 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap");
 /*@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pinyon+Script&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body {
-    font-family: 'Lato','Montserrat','Ubuntu', sans-serif;
+html,
+body {
+    font-family: 'Lato', 'Montserrat', 'Ubuntu', sans-serif;
     width: 100%;
-    height: 100%;    
+    height: 100%;
     line-height: 2rem;
     text-align: justify;
 
 }
 
-nav{
+nav {
     padding: 0 50px;
     width: 100%;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,30 +73,30 @@ span{
 }
 */
 
-.navbar-second{   
+.navbar-second {
     background-color: rgb(229, 252, 252);
     height: 120px;
     position: sticky !important;
     top: 0;
     border-bottom: 1px solid rgb(214, 214, 214);
-    width: 100%;    
+    width: 100%;
 }
 
-.navbar-second p{
+.navbar-second p {
     color: rgb(54, 4, 65);
     font-size: 25px;
     /*font-weight: bolder;*/
     width: 300px;
     height: 30px;
     margin-left: 10px;
-    margin-top: 60px;   
+    margin-top: 60px;
     text-align: left;
     font-style: italic;
     /*font-family: Verdana, Geneva, Tahoma, sans-serif !important;*/
-    font-family: cursive;    
+    font-family: cursive;
 }
 
-.navbar-second h5{
+.navbar-second h5 {
     color: rgb(54, 4, 65);
     font-size: 15px;
     width: 200px;
@@ -107,7 +108,7 @@ span{
     font-style: italic;
 }
 
-.logo{
+.logo {
     text-transform: uppercase;
     /*  cursor: pointer;*/
 }
@@ -117,19 +118,19 @@ img.logo {
     float: left;
     margin-left: 30px;
     margin-top: 1px;
-    border-radius: 10%;      
+    border-radius: 10%;
 }
 
-ul{
+ul {
     margin: 70px;
     /*ou margin-left:  100px; perguntar a Nãe*/
 }
 
-li{
-    list-style: none;    
+li {
+    list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;
@@ -138,7 +139,7 @@ a{
     font-weight: 400;
 }
 
-.navbar-second .flex a{
+.navbar-second .flex a {
     text-decoration: none;
     color: rgb(92, 4, 173);
 }
@@ -154,15 +155,125 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     background-color: blueviolet;
-    color: rgb(209, 250, 250);    
+    color: rgb(209, 250, 250);
 }
 
-.btn-link:hover{
+.btn-link:hover {
     color: rgb(114, 17, 205);
     box-shadow: 8px 2px 2px black;
     background-color: #75d9c4;
     text-decoration: none;
     font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    .order-lg-0 {
+        order: 0 !important;
+    }
+}
+
+/* Mobile Navigation*/
+.mobile-nav-toggle {
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+}
+
+.navbar-mobile {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(39, 37, 34, 0.9);
+    transition: 0.3s;
+    z-index: 0;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.navbar-mobile ul {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: 0.3s;
+}
+
+.navbar-mobile a,
+.navbar-mobile a:focus {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #433f39;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover>a {
+    color: #ffb03b;
+}
+
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+    margin: 15px;
+}
+
+.navbar-mobile .dropdown ul {
+    position: static;
+    display: none;
+    margin: 10px 20px;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 1;
+    visibility: visible;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+.navbar-mobile .dropdown ul li {
+    min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+    padding: 10px 20px;
+}
+
+.navbar-mobile .dropdown ul a i {
+    font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover>a {
+    color: #ffb03b;
+}
+
+.navbar-mobile .dropdown>.dropdown-active {
+    display: block;
 }
 
 section#inicio {
@@ -174,20 +285,20 @@ section#inicio {
     width: 100%;
     height: 100vh;
     opacity: 0.5;
-   /* opacity: 80%;*/
+    /* opacity: 80%;*/
 }
 
-section#inicio h2 {  
+section#inicio h2 {
     color: rgb(21, 96, 99) !important;
     margin-top: 80px;
-    margin-left: -35px;  
+    margin-left: -35px;
     font-size: 3rem;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-    font-family: cursive;  
+    font-family: cursive;
 }
 
- /* 
+/* 
     float: left;
     clip-path: ellipse(50% 30%);
     shape-outside: ellipse(55% 35%);
@@ -228,7 +339,7 @@ section#inicio div#arraste {
 section#inicio div#arraste a {
     color: rgb(231, 254, 254) !important;
     text-decoration: none;
-   
+
 }
 
 section#inicio div#init {
@@ -246,7 +357,7 @@ section#inicio div#init a {
     margin-left: 20px;
     color: black;
     font-weight: 400;
-} 
+}
 
 
 section#inicio .btn-link {
@@ -260,10 +371,10 @@ section#inicio .btn-link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     background-color: blueviolet;
-    color: rgb(209, 250, 250);    
+    color: rgb(209, 250, 250);
 }
 
-section#inicio .btn-link:hover{
+section#inicio .btn-link:hover {
     color: rgb(114, 17, 205);
     box-shadow: 8px 2px 2px black;
     background-color: #75d9c4;
@@ -280,9 +391,10 @@ section{
 */
 
 @media (max-width: 1024px) {
-        section#inicio h2 {
-        font-size: 3.5rem;        
+    section#inicio h2 {
+        font-size: 3.5rem;
     }
+
     /*
     section#inicio span#subtitle {
         margin-right: 0;
@@ -298,8 +410,8 @@ section{
     }
 }
 
-section-bg#sobre{
-    background-color: #ecd2fb;    
+section-bg#sobre {
+    background-color: #ecd2fb;
 }
 
 /*section#sobre p {
@@ -320,23 +432,23 @@ section-bg#sobre{
 }
 */
 
-section#sobre img{
+section#sobre img {
     border-radius: 20px;
     animation-duration: 3s;
-    animation-name: slide-right;  
+    animation-name: slide-right;
 }
-  
+
 @keyframes slide-right {
     from {
         margin-left: -100%;
         width: 300%
-      }
-    
-      to {
+    }
+
+    to {
         margin-left: 0%;
         width: 100%;
-      }
-  }
+    }
+}
 
 section#sobre a {
     text-decoration: none;
@@ -346,7 +458,8 @@ section#sobre a {
     margin-left: 20px;
     color: rgb(92, 4, 173);
     font-weight: 400;
-} 
+}
+
 section#sobre .btn-link {
     text-decoration: none;
     border-radius: 10%;
@@ -358,62 +471,64 @@ section#sobre .btn-link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     background-color: blueviolet;
-    color: rgb(209, 250, 250);    
+    color: rgb(209, 250, 250);
 }
 
-section#sobre .btn-link:hover{
+section#sobre .btn-link:hover {
     color: rgb(114, 17, 205);
     box-shadow: 8px 2px 2px black;
     background-color: #75d9c4;
     text-decoration: none;
     font-weight: bold;
-} 
+}
 
-section-bg#especialidades{
+section-bg#especialidades {
     background-color: rgb(168, 244, 244);
 }
 
-section-bg#especialidades img{
+section-bg#especialidades img {
     width: 100%;
-    height: 350px;    
+    height: 350px;
 }
 
 .carousel-indicators {
     margin-bottom: 10px;
 }
- @media (max-width: 1860px) {
+
+@media (max-width: 1860px) {
     .carousel-control-prev {
         margin-left: -3rem;
     }
-    
+
     .carousel-control-next {
         margin-right: -3rem;
     }
 }
 
-section-bg#carouselExampleAutoplaying{
+section-bg#carouselExampleAutoplaying {
     margin-bottom: -35px;
 }
- @media (max-width: 1860px) {
+
+@media (max-width: 1860px) {
     .carousel-control-prev {
         margin-left: 1rem;
     }
-    
+
     .carousel-control-next {
         margin-right: 1rem;
     }
 }
 
-section#consultorio{
-    background-color: #f7d4fa;    
-   
+section#consultorio {
+    background-color: #f7d4fa;
+
 }
 
-section#consultorio h2{
-    margin-top: 40px;   
+section#consultorio h2 {
+    margin-top: 40px;
 }
 
-section#consultorio img{
+section#consultorio img {
     border-radius: 10px;
 }
 
@@ -425,7 +540,8 @@ section#consultorio a {
     margin-left: 20px;
     color: rgb(92, 4, 173);
     font-weight: 400;
-} 
+}
+
 section#consultorio .btn-link {
     text-decoration: none;
     border-radius: 10%;
@@ -437,10 +553,10 @@ section#consultorio .btn-link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     background-color: blueviolet;
-    color: rgb(209, 250, 250);    
+    color: rgb(209, 250, 250);
 }
 
-section#consultorio .btn-link:hover{
+section#consultorio .btn-link:hover {
     color: rgb(114, 17, 205);
     box-shadow: 8px 2px 2px black;
     background-color: #75d9c4;
@@ -479,28 +595,28 @@ section#convenios div#saiba-mais a {
     display: none;
 }
 
-.navbar-third{
+.navbar-third {
     background-color: rgb(229, 252, 252);
     color: white;
     height: 200px;
-    
+
 }
 
-.navbar-third p{
+.navbar-third p {
     color: rgb(54, 4, 65);
     font-size: 25px;
     /*font-weight: bolder;*/
     width: 300px;
     height: 30px;
     margin-left: 20%;
-    margin-top: 10px;   
+    margin-top: 10px;
     text-align: left;
     font-family: cursive;
     font-style: italic;
-    
+
 }
 
-.navbar-third h5{
+.navbar-third h5 {
     color: rgb(54, 4, 65);
     font-size: 15px;
     width: 200px;
@@ -512,7 +628,7 @@ section#convenios div#saiba-mais a {
     font-style: italic;
 }
 
-.navbar-third .logo{
+.navbar-third .logo {
     text-transform: uppercase;
     width: 80px;
     float: left;
@@ -521,7 +637,7 @@ section#convenios div#saiba-mais a {
     border-radius: 10%;
 }
 
-.navbar-third .right .social-links{
+.navbar-third .right .social-links {
     margin-top: 6rem;
     margin-left: 20px;
 }
@@ -538,24 +654,24 @@ section#convenios div#saiba-mais a {
     text-decoration: none;
 }
 
-.navbar-third#right > div{
+.navbar-third#right>div {
     margin-left: 40px;
 }
 
-.navbar-third#right > div:hover{
+.navbar-third#right>div:hover {
     color: black;
     transition: all 0.5s;
 }
 
-.navbar-third#ul{
+.navbar-third#ul {
     margin: 200px;
 }
 
-.navbar-third#li{
-    list-style: none;    
+.navbar-third#li {
+    list-style: none;
 }
 
-.navbar-third a{
+.navbar-third a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;
@@ -575,10 +691,10 @@ section#convenios div#saiba-mais a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     background-color: blueviolet;
-    color: rgb(209, 250, 250);    
+    color: rgb(209, 250, 250);
 }
 
-.navbar-third .btn-link:hover{
+.navbar-third .btn-link:hover {
     /*
     box-shadow: 8px 2px 2px #000;
     background-color: yellowgreen;
@@ -592,7 +708,7 @@ section#convenios div#saiba-mais a {
     font-weight: bold;
 }
 
-.section-bg#psico{
+.section-bg#psico {
     background-color: #fff;
     position: center;
     width: 100%;
@@ -604,7 +720,7 @@ section#convenios div#saiba-mais a {
     margin-left: 50px;
 }
 
-.section-bg#acomp{
+.section-bg#acomp {
     background-color: #fff;
     position: center;
     width: 100%;
@@ -612,7 +728,7 @@ section#convenios div#saiba-mais a {
     margin-bottom: 40px;
 }
 
-.section-bg#orient{
+.section-bg#orient {
     background-color: #fff;
     position: center;
     width: 100%;
@@ -624,7 +740,7 @@ section#convenios div#saiba-mais a {
     margin-left: 50px;
 }
 
-.section-bg#consult{
+.section-bg#consult {
     background-color: #fff;
     position: center;
     width: 100%;
@@ -632,7 +748,7 @@ section#convenios div#saiba-mais a {
     margin-bottom: 40px;
 }
 
-.section-bg#plant{
+.section-bg#plant {
     background-color: #fff;
     position: center;
     width: 100%;
