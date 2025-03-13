@@ -233,10 +233,9 @@ section#inicio div#arraste a {
 
 section#inicio div#init {
     background: rgb(230, 230, 230);
-    margin-top: 400px;
-    margin-bottom: 125px;
-    margin-left: 115px;
-    margin-right: 100px;
+    float: left;
+    clip-path: ellipse(50% 30%);
+    shape-outside: ellipse(55% 35%);
 }
 
 section#inicio div#init a {
