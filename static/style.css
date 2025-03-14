@@ -167,14 +167,14 @@ a {
 }
 
 @media (min-width: 992px) {
-    .order-lg-0 {
+    .flex {
         order: 0 !important;
     }
 }
 
 /* Mobile Navigation*/
 .mobile-nav-toggle {
-    color: #fff;
+    color: #791717;
     font-size: 28px;
     cursor: pointer;
     display: none;
