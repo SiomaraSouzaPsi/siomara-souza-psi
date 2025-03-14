@@ -345,7 +345,7 @@ section#inicio div#arraste a {
 section#inicio div#init {
     background: rgb(230, 230, 230);
     float: left;
-    clip-path: ellipse(50% 25%);
+    clip-path: ellipse(40% 17%);
     shape-outside: ellipse(55% 35%);
 }
 
@@ -411,8 +411,9 @@ section{
 }
 
 section#inicio div#init-1 img{
+    margin-left: 700px;
     float: right;
-    clip-path: ellipse(40% 40%);
+    clip-path: ellipse(30% 30%);
     shape-outside: ellipse(55% 35%);
 }
 
