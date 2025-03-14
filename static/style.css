@@ -289,17 +289,17 @@ a {
     z-index: 997;
     transition: all 0.5s;
     padding: 20px 0;
-    background: #2d6760;
+    background: rgb(229, 252, 252);
 }
 
 #header.header-scrolled {
-    background: #1d443f;
+    background: rgb(12, 175, 175);
     height: 60px;
     padding: 10px 0;
 }
 
-#header .logo h1 {
-    font-size: 30px;
+#header .logo h1, h2 {
+    font-size: 20px;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -321,7 +321,7 @@ a {
 
 @media (max-width: 768px) {
     #header .logo h1 {
-        font-size: 28px;
+        font-size: 25px;
         padding: 8px 0;
     }
 }
@@ -360,7 +360,7 @@ a {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-    color: #fff;
+    color: #968c0c;
     text-decoration: none;
 }
 
@@ -373,7 +373,7 @@ a {
     opacity: 0;
     visibility: hidden;
     padding: 10px 0;
-    background: #fff;
+    background: #800404f1;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: ease all 0.3s;
 }
@@ -455,7 +455,7 @@ a {
     left: -260px;
     width: 260px;
     padding-top: 18px;
-    background: #01292a;
+    background: #31d647;
     transition: 0.4s;
 }
 
@@ -468,7 +468,7 @@ a {
 .mobile-nav a {
     display: block;
     position: relative;
-    color: #d2ece9;
+    color: #5e0930;
     padding: 10px 20px;
     font-weight: 500;
 }
@@ -476,7 +476,7 @@ a {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #9cd5ce;
+    color: #5cb620;
     text-decoration: none;
 }
 
@@ -521,7 +521,7 @@ a {
 }
 
 .mobile-nav-toggle i {
-    color: #fff;
+    color: #330cdf;
 }
 
 .mobile-nav-overly {
@@ -531,7 +531,7 @@ a {
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(1, 41, 42, 0.9);
+    background: rgba(206, 121, 10, 0.9);
     overflow: hidden;
     display: none;
 }
@@ -545,7 +545,7 @@ a {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-    color: #fff;
+    color: #d4157e;
 }
 
 section#inicio {
