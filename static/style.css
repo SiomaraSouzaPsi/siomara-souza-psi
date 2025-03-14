@@ -290,11 +290,11 @@ a {
     z-index: 997;
     transition: all 0.5s;
     padding: 20px 0;
-    background: rgb(229, 252, 252);
+    background: rgb(168, 187, 125);
 }
 
 #header.header-scrolled {
-    background: rgb(12, 175, 175);
+    background: rgb(31, 117, 10);
     height: 60px;
     padding: 10px 0;
 }
@@ -310,7 +310,7 @@ a {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-    color: #000000;
+    color: #ca1d1d;
     text-decoration: none;
 }
 
@@ -327,11 +327,7 @@ a {
     }
 }
 
-#main {
-    margin-top: 80px;
-}
-
-#header .btn-link {
+.btn-link {
     text-decoration: none;
     border-radius: 10%;
     width: 300px;
@@ -423,7 +419,7 @@ a {
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-    color: #398a80;
+    color: #d810bd;
 }
 
 .nav-menu .drop-down>a:after {
@@ -571,6 +567,8 @@ a {
     color: #d4157e;
 }
 
+
+/*Sections*/
 section#inicio {
     background-image: url("./img/frente-site-2.jpeg");
     background-repeat: no-repeat;
