@@ -413,7 +413,7 @@ section{
 }
 
 section#inicio div#init-1 img{
-    float: left;
+    float: right;
     clip-path: ellipse(50% 50%);
     shape-outside: ellipse(55% 35%);
 }
