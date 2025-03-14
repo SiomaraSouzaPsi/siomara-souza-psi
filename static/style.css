@@ -410,6 +410,12 @@ section{
     }
 }
 
+section#inicio div#init-1 img{
+    float: right;
+    clip-path: ellipse(40% 40%);
+    shape-outside: ellipse(55% 35%);
+}
+
 section-bg#sobre {
     background-color: #ecd2fb;
 }
